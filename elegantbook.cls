@@ -1097,6 +1097,74 @@
 
 \RequirePackage{adforn}
 
+% ====================================
+% 🎭 诗歌排版专用环境 (Literary Collection)
+% ====================================
+
+% 诗歌颜色定义
+\definecolor{poemtitle}{RGB}{80, 80, 80}
+\definecolor{poemline}{RGB}{60, 60, 60}
+
+% 诗歌标题样式
+\newcommand{\poemtitle}[1]{%
+  \begin{center}
+    {\large\bfseries\color{poemtitle}#1}
+  \end{center}
+  \vspace{0.3em}
+}
+
+% 诗歌副标题/题记
+\newcommand{\poemsubtitle}[1]{%
+  \begin{center}
+    {\small\itshape\color{gray}--- #1 ---}
+  \end{center}
+  \vspace{0.5em}
+}
+
+% 诗歌正文环境 - 居中、适当行距
+\newenvironment{poemtext}{%
+  \begin{center}
+  \begin{minipage}{0.75\textwidth}
+  \centering                          % 让诗句居中
+  \setlength{\parindent}{0pt}
+  \linespread{1.8}\selectfont
+  \color{poemline}
+}{%
+  \end{minipage}
+  \end{center}
+}
+
+% 完整的诗歌环境（带可选标题）
+\newenvironment{poem}[1][]{%
+  \vspace{1em}
+  \ifx&#1&\else\poemtitle{#1}\fi
+  \begin{poemtext}
+}{%
+  \end{poemtext}
+  \vspace{1em}
+}
+
+% 诗节分隔（空一行的效果）
+\newcommand{\stanzabreak}{\par\vspace{0.8em}\par}
+
+% 诗歌落款
+\newcommand{\poemsign}[1]{%
+  \par\vspace{0.5em}
+  \hfill{\small\itshape\color{gray}#1}\hspace{2em}
+  \par
+}
+
+% 诗歌间优雅分隔符
+\newcommand{\poemsep}{%
+  \vspace{1.5em}
+  \begin{center}
+    \color{structurecolor!40}
+    {\adforn{21}\quad\adforn{11}\quad\adforn{49}}
+  \end{center}
+  \vspace{1em}
+}
+
+
 \newenvironment{problemset}[1][\xchaptertitle~\exercisename]{
   \vspace*{10pt}
   \begin{center}
