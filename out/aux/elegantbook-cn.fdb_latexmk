@@ -1,17 +1,17 @@
 # Fdb version 4
-["biber out/aux/elegantbook-cn"] 1768617915.54683 "out/aux/elegantbook-cn.bcf" "out/aux/elegantbook-cn.bbl" "out/aux/elegantbook-cn" 1768619014.86808 0
-  "out/aux/elegantbook-cn.bcf" 1768619014.59013 108284 3a8ffc70322ab5aa9b6e0f67f3411276 "xelatex"
+["biber out/aux/elegantbook-cn"] 1768617915.54683 "out/aux/elegantbook-cn.bcf" "out/aux/elegantbook-cn.bbl" "out/aux/elegantbook-cn" 1768619303.39642 0
+  "out/aux/elegantbook-cn.bcf" 1768619303.12917 108284 3a8ffc70322ab5aa9b6e0f67f3411276 "xelatex"
   (generated)
   "out/aux/elegantbook-cn.bbl"
   "out/aux/elegantbook-cn.blg"
   (rewritten before read)
-["xdvipdfmx"] 1768619014.65911 "out/aux/elegantbook-cn.xdv" "out/pdf/elegantbook-cn.pdf" "out/pdf/elegantbook-cn" 1768619014.86981 0
-  "out/aux/elegantbook-cn.xdv" 1768619014.59013 90084 d9426e51bb07c9052dd05b89121365b2 "xelatex"
+["xdvipdfmx"] 1768619303.19848 "out/aux/elegantbook-cn.xdv" "out/pdf/elegantbook-cn.pdf" "out/pdf/elegantbook-cn" 1768619303.39809 0
+  "out/aux/elegantbook-cn.xdv" 1768619303.12917 90084 cb5dda1757f97d36ea0a66f252656428 "xelatex"
   (generated)
   "out/pdf/elegantbook-cn.pdf"
   (rewritten before read)
-["xelatex"] 1768619013.28119 "/home/cusnd/Text/Soren-s-Literary-Journey/elegantbook-cn.tex" "out/aux/elegantbook-cn.xdv" "elegantbook-cn" 1768619014.86813 0
-  "/home/cusnd/Text/Soren-s-Literary-Journey/elegantbook-cn.tex" 1768618872.05607 8432 2b41bba0eb4f95c3768e4db6ac7ed210 ""
+["xelatex"] 1768619301.27537 "/home/cusnd/Text/Soren-s-Literary-Journey/elegantbook-cn.tex" "out/aux/elegantbook-cn.xdv" "elegantbook-cn" 1768619303.39647 0
+  "/home/cusnd/Text/Soren-s-Literary-Journey/elegantbook-cn.tex" 1768619301.33231 8433 952fc05acf4a910954e58ba1145bebb5 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/symbol/psyr.tfm" 1136768653 1408 5937f58aa508ea2cea4901c07d10f5fe ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
@@ -258,14 +258,14 @@
   "/usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf" 1739380943 42148 61becc7c670cd061bb319c643c27fdd4 ""
   "/usr/local/texlive/2025/texmf-var/web2c/xetex/xelatex.fmt" 1757834610 5639814 23ffb161cbf998037ae9d4ac7181d79d ""
   "/usr/local/texlive/2025/texmf.cnf" 1757834563.12101 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
-  "elegantbook-cn.tex" 1768618872.05607 8432 2b41bba0eb4f95c3768e4db6ac7ed210 ""
+  "elegantbook-cn.tex" 1768619301.33231 8433 952fc05acf4a910954e58ba1145bebb5 ""
   "elegantbook.cls" 1768618995.92284 47671 b728b502889c74787ae8d764a8a3c5b4 ""
   "image/cover2.jpg" 1768617790.00933 1743081 16bdb708e069947ca9513ede069d5e4c ""
-  "out/aux/elegantbook-cn.aux" 1768619014.59013 2308 d595bb959b6c7b513f87b072c9bc382f "xelatex"
+  "out/aux/elegantbook-cn.aux" 1768619303.12917 2308 d595bb959b6c7b513f87b072c9bc382f "xelatex"
   "out/aux/elegantbook-cn.bbl" 1768617918.40972 466 76d65a242ec496c9b4361af646ff12cb "biber out/aux/elegantbook-cn"
-  "out/aux/elegantbook-cn.out" 1768619014.59013 1478 c7f2fe2b891373c2a19b7476fd2c9cfb "xelatex"
-  "out/aux/elegantbook-cn.run.xml" 1768619014.59013 2414 b551989a1e84a89e2ff46dfcaa3c6c35 "xelatex"
-  "out/aux/elegantbook-cn.toc" 1768619014.59013 1057 423225483e1c04cc8c57713db9e76949 "xelatex"
+  "out/aux/elegantbook-cn.out" 1768619303.12917 1478 c7f2fe2b891373c2a19b7476fd2c9cfb "xelatex"
+  "out/aux/elegantbook-cn.run.xml" 1768619303.12917 2414 b551989a1e84a89e2ff46dfcaa3c6c35 "xelatex"
+  "out/aux/elegantbook-cn.toc" 1768619303.12917 1057 423225483e1c04cc8c57713db9e76949 "xelatex"
   (generated)
   "out/aux/elegantbook-cn.aux"
   "out/aux/elegantbook-cn.bcf"
