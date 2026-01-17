@@ -1,5 +1,6 @@
 # LaTeX 编译输出目录
 texout/
+out/
 
 # LaTeX 中间文件
 *.aux
